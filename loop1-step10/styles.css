@@ -1,0 +1,312 @@
+body {
+    font-family: Roboto;
+}
+
+/*-- Styles for the navbar --*/
+.navbar {
+    display: flex;
+    margin-top: 50px;
+}
+.logo {
+    flex: 6;
+}
+.apple {
+    margin-left: 120px;
+    height: 50px;
+    width: 50px;
+    margin-top: -10px;
+}
+.nav-links {
+    flex: 7;
+    margin-top: 10px;
+}
+.link {
+    text-decoration: none;
+    color: rgb(202, 200, 200);
+    margin-right: 20px;
+    padding-left: 10px;
+}
+.link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(117, 117, 117);
+    padding-bottom: 5px;
+}
+.link4 {
+    color: rgb(105, 104, 104);
+    text-decoration: underline;
+    padding-left: 10px;
+    border: none;
+}
+.link4:focus {
+    outline: none;
+}
+.link4::placeholder {
+    text-decoration: underline;
+    color: rgb(105, 104, 104);
+}
+
+
+/*-- Styles for the Contents Section --*/
+.contents {
+    display: flex;
+}
+.details {
+    flex: 6;
+}
+.title {
+    margin-left: 120px;
+    margin-top:100px;
+}
+.writing {
+    display: flex;
+}
+.line {
+    height: 100px;
+    background-color: grey;
+    width: 2px;
+    margin-left: 125px;
+}
+.text {
+    flex: 7;
+    margin-left: 20px;
+    line-height: 20px;
+    color: rgb(202, 200, 200);
+}
+.btn {
+    background-color: rgb(233, 92, 92);
+    color: white;
+    height: 40px;
+    border: none;
+    margin-top: 40px;
+    margin-left: 125px;
+}
+.btn:hover {
+    background-color: rgb(228, 57, 57);
+    cursor: pointer;
+}
+.pic {
+    flex: 4;
+}
+.watch {
+    height: 450px;
+    width: 400px;
+    margin-left: 170px;
+    margin-right: -5px;
+}
+.border-line {
+    margin-top: -4px;
+    border: 0.7px solid rgb(202, 200, 200);
+}
+
+/*-- Styles for the Benefits Sections --*/
+.benefits {
+    display: flex;
+    text-align: center;
+}
+.left {
+    flex: 3;
+}
+.middle {
+    flex: 3;
+}
+.right {
+    flex: 3;
+}
+
+/*-- Styles for the left Benefit Section --*/
+.left-heading {
+    font-weight: bolder;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+.left-discription {
+    text-align: justify;
+    margin-left: 115px;
+    font-size: 13px;
+    width: 220px;
+    line-height: 20px;
+    font-weight: 550;
+    color: rgb(92, 91, 91);
+}
+.scroll {
+    margin-left: -180px;
+    font-size: 40px;
+    margin-top: -30px;
+    color: rgb(202, 200, 200);
+}
+.dot {
+    margin-left: -7px;
+}
+
+/*-- Styles for the Middle Benefit Section --*/
+.middle-heading {
+    font-weight: bolder;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+.middle-discription {
+    text-align: justify;
+    margin-left: 155px;
+    font-size: 13px;
+    width: 250px;
+    line-height: 20px;
+    font-weight: 550;
+    color: rgb(92, 91, 91);
+}
+.middle-scroll {
+    margin-left: -100px;
+    font-size: 40px;
+    margin-top: -30px;
+    color: rgb(202, 200, 200);
+}
+.dot {
+    margin-left: -7px;
+}
+
+/*-- Styles for the Right Benefit Section --*/
+.right-heading {
+    font-weight: bolder;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+.right-discription {
+    text-align: justify;
+    margin-left: 155px;
+    font-size: 13px;
+    width: 250px;
+    line-height: 20px;
+    font-weight: 550;
+    color: rgb(92, 91, 91);
+}
+.right-dash {
+    display: flex;
+}
+.dash {
+    background-color: indianred;
+    width: 70px;
+    height: 2px;
+    margin-left: 150px;
+    margin-top: 7px;
+}
+.learn {
+    flex: 7;
+    color: indianred;
+    margin-top: -1px;
+    margin-left: -110px;
+    font-size: small;
+    font-weight: 550;
+}
+
+/*-- Styles for the Brand Section --*/
+
+.brand {
+    display: flex;
+    margin-top: 100px;
+}
+.brand-text {
+    flex: 3;
+    margin-top: 100px;
+}
+.brand-text-title {
+    font-weight: bolder;
+    font-size: 35px;
+    margin-left: 120px;
+}
+.brand-text-body {
+    display: flex;
+    margin-top: 40px;
+}
+.brand-line {
+    height: 80px;
+    background-color: grey;
+    width: 2px;
+    margin-left: 125px;
+}
+.brand-writtings {
+    flex: 6;
+    margin-left: 20px;
+    line-height: 20px;
+    color: rgb(202, 200, 200);
+    width: 100px;
+}
+.fle {
+    margin-left: 5px;
+}
+.buy-now {
+    background-color: indianred;
+    color: white;
+    height: 35px;
+    border: none;
+    margin-top: 40px;
+    margin-left: 125px;
+}
+.buy-now:hover {
+    background-color: rgb(168, 70, 70);
+    cursor: pointer;
+}
+
+.brand-img {
+    flex: 3;
+    margin-left: 250px;
+}
+
+
+/*-- Styles for the Footer Section --*/
+.footer {
+    display: flex;
+    background-image: url(./img/runners.jpg);
+    height: 130vh;
+    margin-left: -10px;
+    margin-top: 40px;
+    margin-right: -8px;
+}
+.blank {
+    flex: 7;
+}
+.footer-content {
+    flex: 6;
+    margin-top: 30px;
+}
+.footer-title {
+    font-size: 30px;
+    color: white;
+    margin-top: 250px;
+    margin-left: 80px;
+    font-weight: 900;
+}
+.footer-body {
+    display: flex;
+    margin-top: 40px;
+}
+.footer-line {
+    height: 80px;
+    background-color: rgb(231, 231, 231);
+    width: 3px;
+    margin-left: 90px;
+}
+.footer-writtings {
+    flex: 5;
+    margin-left: 20px;
+    line-height: 20px;
+    color: white;
+    width: min-content;
+    font-size: small;
+    margin-right: 200px;
+}
+.explore-btn {
+    background-color: indianred;
+    color: white;
+    height: 35px;
+    border: none;
+    margin-top: 40px;
+    margin-left: 90px;
+    font-size: 10px;
+}
+.explore-btn:hover {
+    background-color: rgb(168, 70, 70);
+    cursor: pointer;
+}

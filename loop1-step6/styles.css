@@ -1,0 +1,102 @@
+.container-fluid{
+  background-color: #4D515D; 
+  padding-top: 50px; 
+  height: 100vh;
+}
+.white{
+    margin-left: 190px;
+    margin-right: auto;
+    background-color: white;
+    width: 60%;
+}
+.col-md-9{
+    height: fit-content;
+    font-family: Roboto, sans-serif;
+    padding-left: 70px;
+}
+h1{
+    margin-top: 90px;
+    color: #000000a4
+}
+.p1{
+    color: rgba(132, 133, 134, 0.719);
+    font-size: 12px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.p2{
+    color: rgba(132, 133, 134, 0.719);
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: -1.5em;
+}
+
+.social-media{
+    margin-top: 50px;
+}
+
+.som{
+    border: 1px solid #d1cbcba4;
+    height: 60px;
+    padding-top: 15px;
+    margin-right: 35px;
+}
+.som:hover{
+    border: 1px solid white;
+    box-shadow: 0px 7px 20px rgba(218, 210, 210, 0.521);
+}
+.text:hover{
+    color: #000000;
+}
+.sm{
+    height: 20px;
+    margin-left: 20px;
+}
+
+.text{
+    font-size: 11px;
+    color: #737679e8;
+    margin-left: 150px;
+    font-weight: bold;
+}
+
+hr{
+    width: 118%;
+    margin-left: -4em;
+    margin-top: 80px;
+}
+
+input{
+    border: none;
+}
+
+.OPTION{
+    font-size: 11.5px;
+    color: #000000c0;
+    font-weight: bold;
+}
+
+.OPTION:hover{
+    border: 1px solid white;
+    box-shadow: 0px 7px 20px rgba(218, 210, 210, 0.521);
+}
+.SIGN{
+    display: flex;
+}
+.mail{
+    font-size: 11px;
+    color: #726e6e;
+    font-weight: bold;
+    margin-left: 150px;
+}
+a:link{
+    text-decoration: none;
+   color: #4D515D;
+}
+
+.mail:hover{
+    color: #000000;
+}
+.col-md-3{
+height: fit-content;
+}

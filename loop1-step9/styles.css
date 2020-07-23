@@ -1,0 +1,202 @@
+body {
+    background-color: rgb(241, 210, 68);
+    font-family: Roboto;
+}
+.card {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    box-shadow: rgba(0, 0, 0, 0.75);
+    margin-top: 100px;
+    height: 57vh;
+}
+.cards {
+    flex: 1.2;
+    background-color: rgb(241, 241, 241);    
+}
+.text {
+    margin-left: 40px;
+}
+.plus {
+    margin-left: 100px;
+    margin-top: 5px;
+    height: 18px;
+}
+
+/*-- Styles for the Visa-Card--*/
+
+.visa-card {
+    width: 13rem;
+    background-color: #ffffff;
+    margin-left: 40px;
+    margin-right: auto;
+    border-radius: 5px;
+    height: 7rem;
+    border: 1px solid rgb(233, 231, 231);
+    box-shadow: rgba(0, 0, 0, 0.25);   
+}
+.visa {
+    height: 30px;
+    width: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.number {
+    margin-left: 13px;
+    color: grey;
+    font-size: 15px;
+}
+.date {
+    margin-left: 13px;
+    color: grey;
+    margin-top: -10px;
+    font-size: 13px;
+}
+
+/*-- Styles for the Master-Card--*/
+
+.master-card {
+    width: 13rem;
+    background-color: #ffffff;
+    margin-left: 40px;
+    margin-right: auto;
+    border-radius: 5px;
+    height: 7rem;
+    border: 1.5px solid rgb(19, 97, 150);
+    box-shadow: rgba(0, 0, 0, 0.25);  
+    margin-top: 15px;
+}
+.master {
+    height: 30px;
+    width: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.number {
+    margin-left: 13px;
+    color: grey;
+    font-size: 15px;
+}
+.date {
+    margin-left: 13px;
+    color: grey;
+    margin-top: -10px;
+    font-size: 13px;
+}
+
+
+/*-- Styles for the Maestro-Card--*/
+
+.maestro-card {
+    width: 13rem;
+    background-color: #ffffff;
+    margin-left: 40px;
+    margin-right: auto;
+    border-radius: 5px 5px 0px 0px;
+    height: 3rem;
+    border: 1px solid rgb(233, 231, 231);
+    box-shadow: rgba(0, 0, 0, 0.25); 
+    margin-top: 15px; 
+}
+.maestro {
+    height: 30px;
+    width: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+.cost {
+    flex: 2;
+    background-color: #ffffff;
+    border-radius: 0px 10px 10px 0px;
+}
+.bal {
+    margin-left: 40px;
+}
+.amount {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 14rem;
+}
+.line {
+    width: 83%;
+    border: 1px solid rgb(223, 223, 223);
+    margin-top: 40px;
+}
+
+
+.commodities {
+    display: flex;
+}
+.signs {
+    flex: 1;
+}
+.goods {
+    flex: 6;
+}
+.price-tags {
+    flex: 1;
+}
+
+.minus {
+    height: 15px;
+    width: 15px;
+    border-radius: 100px;
+    box-shadow: rgba(0, 0, 0, 0.603); 
+    background-color: #ffffff;
+    border: 1px solid rgb(223, 223, 223);
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+.plus-sign {
+    height: 15px;
+    width: 15px;
+    border-radius: 100px;
+    box-shadow: rgba(0, 0, 0, 0.603); 
+    background-color: #ffffff;
+    border: 1px solid rgb(223, 223, 223);
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+.minus2 {
+    height: 15px;
+    width: 15px;
+    border-radius: 100px;
+    box-shadow: rgba(0, 0, 0, 0.603); 
+    background-color: #ffffff;
+    border: 1px solid rgb(223, 223, 223);
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+.good {
+    margin-left: 10px;
+}
+.discription {
+    color: rgb(223, 223, 223);
+    margin-top: -15px;
+    font-size: small;
+    margin-left: 10px;
+}
+.price {
+    margin-top: 20px;
+    color: rgb(55, 158, 226);
+    font-weight: 900;
+    margin-left: -30px;
+}
+.price2 {
+    margin-top: 50px;
+    color: rgb(69, 226, 55);
+    font-weight: 900;
+    margin-left: -30px;
+}
+.price3 {
+    margin-top: 45px;
+    color: rgb(55, 158, 226);
+    font-weight: 900;
+    margin-left: -30px;
+}

@@ -1,0 +1,129 @@
+body{
+    background-color: #000000;
+}
+.purple-background{
+    background-color: #A587EA;
+    margin-top: 50px;
+    height: 80vh;
+    padding-top: 30px;
+    }
+
+    .second-div{
+        background-color: #AF7CD5;
+        margin: auto;
+        width: 24%;
+        height: 48vh;
+        box-shadow: 0 22px 50px rgba(14,21,47, .2), 0 8px 20px rgba(14,21,47, .2);
+    }
+
+    .vertical-line{
+        border: 1px solid white;
+        height: 40px;
+        background: white;
+        width: 0px;
+        margin-left: 40px;
+      }
+
+      .image{
+          display: flex;
+      }
+      .photo{
+          border-radius: 50%;
+    background-color: white;
+    margin-left: 28px;
+border: 1px solid white;
+height: 24px;
+      }
+      .zig{
+        height: 15px;
+        width: 25px;
+        padding-top: 3px;
+      }
+      .pic{
+          margin-left: 10px;
+          color: #ffffff;
+          font-family: Roboto, sans-serif;
+          margin-top: 5px;
+          font-size: 17px;
+      }
+
+      .arrow{
+          margin-top: -8px;
+          margin-left: 170px;
+      }
+
+      .bingo{
+          background-color: #5F5280;
+          width: 100%;
+          height: 24vh;
+          margin-top: 8px;
+      }
+ 
+    .line{
+        border: 1px solid #ffffff9a;
+        height: 25px;
+        background: #ffffff9a;
+        width: 0px;
+        margin-left: 40px;
+      }
+
+      .dt{
+          display: flex;
+      }
+      .dot{
+          border: 1px solid white;
+          background-color: white;
+          border-radius: 50%;
+          width: 6px;
+          margin-left: 36px;
+          height: 8px;
+          margin-top: 6px;
+          padding-right: 2px;
+      }
+      a:link{
+          text-decoration: none;
+      }
+
+      .pi{
+        margin-left: 16px;
+        color: #ece6e6de;
+        font-family: Roboto, sans-serif;
+        margin-top: 2px;
+        font-size: 16px;
+    }
+
+    .pi:hover{
+        color: #ffffff;
+    }
+    .lin{
+        border: 1px solid #ffffff9a;
+        height: 9px;
+        background: #ffffff9a;
+        width: 0px;
+        margin-left: 40px;
+        margin-top: -7px;
+      }
+      .li{
+        border: 1px solid #ffffff83;
+        height: 36px;
+        background: #ffffff83;
+        width: 0px;
+        margin-left: 40px;
+        margin-top: -0.9em;
+      }
+      .ne{
+        border: 1px solid #ffffff9a;
+        height: 18px;
+        background: #ffffff9a;
+        width: 0px;
+        margin-left: 40px;
+      }
+      
+      .net{
+        border: 1px solid #ffffff9a;
+        height: 27px;
+        background: #ffffff9a;
+        width: 0px;
+        margin-left: 40px;
+        margin-top: -1em;
+      }

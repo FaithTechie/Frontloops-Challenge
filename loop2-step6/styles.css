@@ -1,0 +1,92 @@
+body{
+    background: #78ACCD;
+    position: absolute;
+    padding-top: 120px;
+    font-family: Verdana, sans-serif;
+}
+
+.white{
+    background: white;
+    margin-left: 26em;
+    margin-right: 36em;
+    height: 56vh;
+    width: 30%;
+}
+
+.date{
+    padding-top: 20px;
+    color: rgba(151, 148, 148, 0.705);
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+ .year{
+     float: right;
+     padding-right: 30px;
+ }
+ hr{
+     margin-left: -0.em;
+     border: 0.5px solid rgb(209, 205, 205);
+ }
+ul{
+    list-style-type: none;
+}
+
+/* Month header */
+.weekdays {
+    padding: 8px 1;
+    margin-right: 30px;
+background: white;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 12%;
+    color: #666666dc;
+    font-size: 12px;
+    text-align: center;
+    margin-top: -3em;
+    font-weight: bold;
+}
+.no{
+    color: rgba(128, 128, 128, 0.603);
+}
+/* Days (1-31) */
+.days {
+    padding: 10 0px ;
+    background: white;
+    margin-right: 30px;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 12%;
+    text-align: center;
+    font-size: 14px;
+    color: #000000;
+}
+
+.time{
+    display: flex;
+    color: rgba(0, 0, 0, 0.884);
+    font-size: 13px;
+    margin-left: 30px;
+    margin-top: 25px;
+    font-family: sans-serif;
+}
+
+.plus{ 
+margin-left: 115px;
+border: 2px solid #DE6E46;
+border-radius: 50%;
+width: 15px;
+height: 15px;
+padding: 4px;
+margin-top: -8px;
+padding-left: 6px;
+}
+.degree{
+    margin-left: 115px;
+}

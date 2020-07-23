@@ -1,0 +1,97 @@
+body{
+    background: #2980B9;
+    font-family: Roboto, sans-serif;
+}
+
+.row{
+    margin-left: 350px;
+    margin-right: auto;
+    padding-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+  max-width: 400px;
+  display: flex;
+  margin: 20px;
+}
+
+.card .image-container {
+  border-radius: 0px;
+  background-color: transparent;
+  padding-right: 15px;
+  padding-left: 15px;
+  transition: 1s linear all;
+}
+
+.card .image-container .texts {
+  display: none;
+  transition: 1s linear all;
+}
+
+.card .image-container .card-img {
+  margin-top: -20px;
+   height: 40vh;
+    box-shadow: 0px 5px 16px #2c2b2c;
+}
+
+.card:hover .image-container {
+  border-radius: 6px;
+  background-color: #ffffff;
+  transition: 3s linear all;
+  
+}
+
+.card:hover .image-container .texts {
+  display: block;
+  transition: 2s linear all;
+}
+
+.Name{
+text-align: center;
+font-weight: bold;
+font-size: 13.5px;
+}
+
+.quote{
+text-align: center;
+margin-top: -10px;
+font-size: 11.2px;
+color: #acadad;
+font-weight: 500;
+}
+
+.amount{
+text-align: center;
+color: #8DE0AF;
+font-weight: 560;
+font-size: 13.5px;
+}
+
+.price{
+text-align: center;
+color: #acadad;
+margin-top: -1em;
+font-size: 12px;
+font-weight: 550;
+}
+
+button{
+background: #2f2f2f;
+border: none;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+width: 116.9%;
+margin-top: 10px;
+margin-left: -1.4em;
+height: 40px;
+position: relative;
+color: #ffffff;
+font-size: 11px;
+cursor: pointer;
+}
+
+button:focus{
+    outline: none;
+}

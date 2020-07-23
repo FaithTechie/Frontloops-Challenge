@@ -1,0 +1,186 @@
+.green{
+    background: #C9F8FE;
+    height: 100vh;
+    padding-top: 50px;
+}
+
+.white{
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 75vh;
+}
+
+.ack{
+    display: flex;
+}
+.dark{
+    background-image: url(./img/background.jpg);
+    flex: 1px;
+    background-repeat: round;
+    height: 75vh;
+    background-size: 100vh;
+}
+
+.text{
+flex: 1px;
+}
+
+#media{
+    color: rgb(252, 251, 253);
+    text-align: center;
+    margin-top: 14em;
+    font-family: Roboto, sans-serif;
+    margin-left: -2em;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.info{
+    font-size: 12px;
+    margin-top: -1em;
+    font-weight: 600;
+}
+
+button{
+    border-radius: 25px;
+    width: 26%;
+    height: 48px;
+    border: 1px solid #69A795;
+    background: rgba(105, 167, 149, 0.863);
+}
+
+.file{
+    height: 18px;
+}
+
+.kit{
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+button:focus{
+    outline: none
+}
+button:hover{
+    background-color: #69A795;
+}
+
+#art{
+    font-family: Roboto, sans-serif;
+    padding-left: 35px;
+    padding-top: 22px;
+}
+
+.years{
+    display: flex;
+    font-family: Roboto, sans-serif;
+    padding-left: 35px;
+    font-size: 19px;
+    padding-top: 8px;
+}
+
+.year{
+    padding-left: 16px;
+    color: rgb(212, 211, 211);
+}
+
+a:link{
+    color: rgb(212, 211, 211);
+    text-decoration: none;
+}
+
+.year:hover{
+    color: black;
+}
+#seventeen{
+    color: black;
+}
+.ten{
+    color: white;
+}
+
+.Top{
+    display: flex;
+    padding-left: 38px;
+    padding-top: 30px;
+    font-family: Roboto, sans-serif;
+}
+.menu{
+    width: 36px;
+    height: 39px;
+    background-color: black;
+    margin-top: 5px;
+}
+
+#fast{
+     margin-left: 18px;
+     font-size: 13px;
+     font-family: Roboto, sans-serif;
+     font-weight: bold;
+}
+
+.twenty{
+margin-left: 75px;
+font-family: Roboto, sans-serif;
+font-size: 35px;
+margin-top: -0.4px;
+color: #181818d0
+}
+.jan{
+    font-size: 11px;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    margin-left: 11px
+}
+
+.Arc{
+    display: flex;
+    padding-left: 38px;
+    padding-top: 30px;
+    font-family: Roboto, sans-serif;
+    margin-top: -2em;
+}
+.AR{
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    border-radius: 50%;
+    margin-top: 6px;
+}
+
+.Ten{
+     margin-left: 58px;
+    font-family: Roboto, sans-serif;
+    font-size: 35px;
+    margin-top: -0.4px;
+    color: #181818d0;
+    }
+    
+.six{
+    margin-left: 45px;
+   font-family: Roboto, sans-serif;
+   font-size: 35px;
+   margin-top: -0.4px;
+   color: #181818d0;
+   }
+      
+.four{
+    margin-left: 110px;
+   font-family: Roboto, sans-serif;
+   font-size: 35px;
+   margin-top: -0.4px;
+   color: #181818d0;
+   }
+        
+.two{
+    margin-left: 60px;
+   font-family: Roboto, sans-serif;
+   font-size: 35px;
+   margin-top: -0.4px;
+   color: #181818d0;
+   }

@@ -1,0 +1,119 @@
+/* background imgage of the payment method cart*/
+body{
+    background: url(img/background.jpg);
+    padding-top: 70px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*the parent div have a bacgkround color of white*/
+.parent-div{ 
+    
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.spacing{
+    margin-left: 15px;
+}
+
+.top-nav{
+    margin-left: 150px;
+    margin-right: 130px;
+    display: flex;
+}
+.empty1{
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    background-color: rgb(138, 136, 136);
+    margin-right: 3px;
+
+}
+
+.mpty{
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    background-color: rgb(236, 232, 232);
+    margin-right: 3px;
+}
+
+/* h3 tag with content of Payment method*/
+h3{
+text-align: center;
+color: rgb(12, 12, 12);
+}
+
+/* this styling is for the second div inside the parent div*/
+.second-child{
+    background-color: rgb(89, 139, 221);
+    text-align:center;
+    height: 60px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+}
+
+/*styling for the visa image*/
+.visa{
+    height: 30px;
+    vertical-align: middle;
+}
+
+/*styling for the mastercard image*/
+.mastercad{
+    height: 30px;
+    vertical-align: middle;
+}
+
+
+/*styling for the maestro image*/
+.maestro{
+    height: 30px;
+    vertical-align: middle;
+}
+
+/*styling for the check image in front of the MASTERCARD*/
+.check{
+    vertical-align: middle;
+    float: right;
+    margin-right: 30px;
+}
+
+/*styling for the arrow image inside the second div*/
+.ARROW{
+    vertical-align: middle;
+    height: 15px;
+}
+
+/*styling for the second <p> inside the first div*/
+.second-paragraph{
+    margin-left: 30px;
+    color: rgba(8, 2, 2, 0.993);
+    font-size: 13px;
+}
+
+/*styling for the first and third <p> inside the first div*/
+.first-paragraph{
+    margin-left: 30px;
+    color: rgb(190, 184, 179);
+    font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+/* styling for the <hr> inside the first div*/
+hr{
+    background-color: rgb(231, 231, 231);
+    border: none;
+    height: 1px;
+    size: 30px;
+}

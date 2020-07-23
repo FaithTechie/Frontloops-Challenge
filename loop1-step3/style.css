@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(22, 160, 133);
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    line-height: 19px;
+  }
+
+  .root {
+    width: 800px;
+    margin: 100px auto;
+  }
+  
+  .card {
+    border-radius: 4px;
+    background: rgb(255, 255, 255);
+    padding-top: 20px;
+    height: 28.5rem;
+    box-shadow: 0 22px 50px rgba(14,21,47, .2), 0 8px 20px rgba(14,21,47, .2);
+    margin-right: 150px;
+    margin-left: 150px;
+  }
+  .goods {
+    color: #96999b;
+    font-size: 15px;
+    font-weight: 550;
+  }
+  .price {
+    float: right;
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;
+  }
+  .total {
+    font-weight: bolder;
+    color: #686e72;
+    font-size: 20px;
+    padding-bottom: -38px;
+  }
+  .bicycle {
+    height: 15rem;
+    width: 31rem;
+  }
+
+
+  .icon{
+    border: 0.5px solid rgba(156, 155, 155, 0.712);;
+    border-radius: 100%;
+    float: right;
+    height: 40px;
+    width: 40px;
+  }
+  .icon:hover {
+    box-shadow: -1px 2px 10px rgba(14,21,47, .3);
+  }
+  .fa {
+    margin-left: 10px;
+    margin-top:10px;
+  }
+
+  h3{
+    font-weight: bolder;
+  }
+
+  .simplewheel-design{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .order{
+    color: rgba(156, 155, 155, 0.712);
+    font-weight: 600;
+    font-size: 12px;
+  }
+
+  

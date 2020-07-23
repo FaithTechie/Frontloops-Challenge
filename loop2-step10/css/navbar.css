@@ -1,0 +1,152 @@
+/* styles for the first navbar */
+.top_nav{
+    background: #ffffff;
+    height: 18vh;
+    width: 100%;
+    display: flex;  
+    border-top: none;
+}
+
+.fa-linkedin-square {
+    font-size: 35px;
+    color: #0f80bd;
+    margin-left: 230px;
+    margin-top: 20px;
+}
+
+#search_button{
+    border: 1px solid #e7e2e2;
+    height: 80px;
+    width: 15%;
+    margin-left: 27px;
+    border-bottom: none;
+    border-top: none;
+    display: flex;
+}
+
+#fav {
+   float: right;
+   margin-top: 20px;
+   margin-right: 1.5em;
+   border: 0.5px solid #e7e2e2;
+   height: 27px;
+   border-radius: 0px 17px 17px 0px;
+   border-left: none;
+   font-size: 13px;
+   padding-right: 11px;
+   padding-top: 3px;
+   color: #0a0a0ac0;
+}
+
+.link{
+    border-radius: 17px 0px 0px 17px;
+    border: 0.5px solid #e7e2e2;
+    height: 28px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 65%;
+    padding-left: 10px;
+    border-right: none;
+}
+
+.link:focus {
+    outline: none;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+    font-size: 14px;
+
+}
+
+li{
+    color: #000000da;
+}
+
+.list2{
+    margin-left: 30px;
+}
+
+.premium{
+    display: flex;
+    margin-top: 30px;
+    font-size: 15px;
+     margin-left: 30px;
+     color: #f38a96;
+}
+
+.pre{
+    margin-left: 5px;
+}
+
+.icons{
+    border: 1px solid #e7e2e2;
+    height: 50px;
+    width: 15%;
+    margin-left: 40px;
+    border-bottom: none;
+    border-top: none;
+    display: flex;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+#message{
+    color: #41DC73;
+    font-size: 17px;
+}
+
+#notification{
+    color: #EDC519;
+    margin-left: 30px;
+    font-size: 17px;
+}
+
+#user{
+    color: #8742A2;
+    margin-left: 30px;
+    font-size: 17px;
+}
+
+.avatar{
+    border-radius: 50%;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/* styles for the second navbar */
+#second_nav{
+    width: 170%;
+    margin-top: 5em;
+    border: 1px solid #e7e2e2;
+    margin-left: -75em;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+   }
+
+.list3{
+    margin-left: 275px;
+    margin-top: -1em;
+    color: #0000009d;
+}
+
+.list4{
+    margin-left: 30px;
+    margin-top: -1em;
+     color: #0000009d;
+}
+
+.blue-underline{
+    border: 1px solid #92C6E7;
+    width: 4%;
+    margin-left: 310px;
+    background: #92C6E7;
+    margin-top: -0.3em;
+}

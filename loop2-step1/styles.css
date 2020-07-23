@@ -1,0 +1,106 @@
+body {
+    font-family: Roboto;
+    background-color: palevioletred;
+}
+.heads {
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: 900;
+    margin-right: -5px;
+}
+.synthentic {
+    margin-left: 200px;
+    color: white;
+    cursor: pointer;
+}
+.other {
+    margin-left: 50px;
+    color: rgba(255, 255, 255, 0.733);
+}
+.other:hover {
+    color: rgb(245, 245, 245);
+    cursor: pointer;
+}
+.discription {
+    margin-left: 200px;
+    color: white;
+}
+.cards {
+    display: flex;
+    width: 65vw;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40vh;
+    margin-top: 70px;
+    box-shadow: rgba(0, 0, 0, 0.25);
+}
+.left-play {
+    background-color: rgb(224, 167, 186);
+    height: 90px;
+    width: 80px;
+    margin-left: -100px;
+    box-shadow: rgba(0, 0, 0, 1);
+}
+.left-play:hover {
+    background-color: rgb(247, 232, 237);
+    cursor: pointer;
+}
+.dark {
+    flex: 2.8;
+    background-color: gray; 
+    text-align: justify;
+    box-shadow: rgba(0, 0, 0, 1);   
+}
+.head {
+    margin-left: 50px;
+    margin-top: 70px;
+    color: palevioletred;
+    font-size: 18px;
+    font-weight: 700;
+}
+.text {
+    margin-left: 50px;
+    margin-top: -5px;
+    color: white;
+}
+.btn {
+    width: 220px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    margin-left: 240px;
+    margin-top: -15px;
+    box-shadow: rgba(0, 0, 0, 1);
+}
+.btn:hover {
+    cursor: pointer;
+    margin-top: -20px;
+}
+.darker {
+    flex: 3;
+    background-color: rgb(87, 87, 87);    
+    text-align: justify; 
+    box-shadow: rgba(0, 0, 0, 1); 
+}
+.darkest {
+    flex: 3;
+    background-color: rgb(54, 54, 54);
+    text-align: justify; 
+    box-shadow: rgba(0, 0, 0, 1); 
+}
+.right-play {
+    background-color: rgb(224, 167, 186);
+    height: 90px;
+    width: 80px;
+    margin-right: -70px;
+    box-shadow: rgba(0, 0, 0, 1);
+}
+.right-play:hover {
+    background-color: rgb(247, 232, 237);
+    cursor: pointer;
+}
+
